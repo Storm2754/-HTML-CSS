@@ -1,0 +1,22 @@
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+    background:black;
+}
+
+.lo{
+ text-transform:uppercase;/* делает все слова большими */
+}
+
+
+/* id */
+
+#title{
+    font-size:37px; /* Задаем размер текста 37 px */
+
+}
+
+
