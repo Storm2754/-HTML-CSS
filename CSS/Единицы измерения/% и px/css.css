@@ -1,0 +1,25 @@
+
+/* задаем значения через % */
+ 
+.one{
+width: 200px;
+height: 150px;
+background:white;
+}
+
+.two{
+    width: 100%;
+    height: 100px;
+    background:blue;
+}
+
+.three{
+    width: 100%;
+    height: 50px;
+    background:red;
+}
+body{
+    background:black;
+}
+/* Абсолютные единицы не зависят от устройства вывода.
+  Относительные единицы определяют размер элемента относительно значения другого размера. */

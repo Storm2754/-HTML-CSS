@@ -1,5 +1,12 @@
-
-
 h3{
     color:blueviolet;
+}
+
+/* Задаем 2 параметра цвета к одному объекту */
+p{
+    color:red;
+}
+
+P{
+    color:green;
 }

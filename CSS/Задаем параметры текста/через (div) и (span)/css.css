@@ -1,0 +1,17 @@
+div{
+color:blueviolet;
+background:aqua;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+.red{
+    color:red;
+    background:gray;
+}
+
+.green{
+    color:green;
+}

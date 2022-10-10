@@ -1,0 +1,36 @@
+#one{
+color:red;
+background-color: rgb(255, 255, 255);
+}
+
+#two{
+    color:blue;
+    background: pink;
+}
+
+/* также цвет можно задавать и в rgb */
+
+#three{
+    color:rgb(177, 29, 140);
+    background-color: rgb(148, 136, 255);
+}
+ 
+/* также цвет можно задать и в rgba */
+#four{
+    color:rgba(6, 209, 67, 0.5);
+    background-color: rgba(216, 71, 230, 0.5);
+}
+
+/* также цвет можно задать и в виде номера */
+#five{
+    color:#000;
+    background-color:#fff;
+}
+
+/* также цвет можно задать и к boby */
+body{
+    background:rgb(0, 0, 0);
+}
+
+
+/* Цвет в стилях можно задать :названием,шестнадцатиричным значением,в формате (RGB,RGBA,HSL,HSLA) */

@@ -1,0 +1,15 @@
+*{
+  margin:0;
+}
+
+.n{
+background: blue;
+height: 100px;
+color: #fff;
+font-size: 3rem;
+}
+
+.m{
+background: red;
+min-height: calc(100vh-100px);
+}
