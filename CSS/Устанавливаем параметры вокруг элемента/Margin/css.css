@@ -1,0 +1,16 @@
+*{margin: 0;}/*Устанавливает величину отступа от каждого края элемента.*/
+
+p{
+background: red;
+margin-right: 100px; /* отступ справа */
+margin-left: 50px;  /* отступ с лева */
+margin-bottom: 0 px; /* отступ с низу */
+
+}
+
+h1{
+  background:teal;
+  margin-bottom: 0 px;
+  margin: 100px 150px ;
+ 
+}

@@ -1,0 +1,14 @@
+p{
+background: green;
+padding-top:30px ; /* Величина вернего поля */
+padding-bottom: 60px; /* Величина нижниго поля */
+padding-right: 50px; /* величина правого поля */ 
+padding-left: 25px;/* Величина левого поля */
+}
+
+h1{
+  background: blueviolet;
+  padding: 30px;/* Устанавливает значение полей вокруг содержимого элемента */
+  /*padding: 49px 50px;*/
+ /* padding:50px 40px 70px 30px;*/
+}

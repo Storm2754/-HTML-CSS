@@ -1,0 +1,14 @@
+
+
+p{
+background:deeppink;
+border-color: blue;/*Задает цвет границы*/
+border-width: 10px;/*Задает ширину границы*/
+border-style: dashed;/*Задает стиль границы*/
+}
+
+h1{
+  background:palevioletred;
+border:15px green solid;
+ 
+}
