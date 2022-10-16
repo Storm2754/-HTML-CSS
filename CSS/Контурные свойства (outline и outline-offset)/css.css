@@ -1,0 +1,27 @@
+.we{margin:100px}/* Устанавливаем отступ от каждого края */
+
+a{
+background: rgb(0, 0, 0);
+text-decoration:none;/*Стиль текста*/
+padding:10px 12px;/* Отступы от текста */
+color:rgb(255, 255, 255);/*Цвет текста*/
+text-transform: uppercase;/* Преобразование текста в прописной */
+cursor:help;/*Устанавливает форму курсора, когда он находится в пределах элемента*/
+margin:20px;
+}
+
+#one{
+  border:2px solid red;
+}
+
+#two {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color:rgb(59, 250, 132);
+}
+
+#three{
+  outline: 2px solid rgb(88, 91, 255);
+
+ outline-offset: -8px;
+}
