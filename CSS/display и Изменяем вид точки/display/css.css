@@ -1,0 +1,21 @@
+body{text-align:center}
+
+
+.we{
+    background:lawngreen;
+color:rgb(83, 9, 9);
+display: inline;/* отображает элемент как встроенный */
+width: 500px;/*Задает ширину */
+margin: 0;/*задает отступ от блоков*/
+}
+
+.tr{
+    background:hotpink;/*задает фон блока*/
+    color:rgb(0, 82, 82);/*задает цвет текста*/
+    display:block;/*отображает элемент в виде блока*/
+    margin-left:50%;/* задает отступ на 50% в лево  */
+}
+
+.bn{
+    margin-right: 50%;/*задает отступ на 50% в право*/
+}

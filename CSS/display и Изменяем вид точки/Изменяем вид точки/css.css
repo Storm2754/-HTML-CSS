@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana;
+}
+
+ul li{
+list-style-type:upper-roman;/*устанавливает вид точки*/
+}
+
+ ul li a {
+    text-transform: capitalize;/*Делает первую букву большой*/
+    letter-spacing: 3px;/*Задает отступ междк символами*/
+    text-decoration: none;/*убирает подчеркивание текста*/
+background: #000;
+color:#fff;
+display: block;/*отображаем в виде блока*/
+margin: 10px;
+ }
