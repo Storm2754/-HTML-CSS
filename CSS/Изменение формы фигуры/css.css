@@ -1,0 +1,48 @@
+div:hover{
+ background: rgb(255, 79, 255);
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.zr{
+    background:black;
+ transform: skewX(-20deg);
+
+}
+.xr{
+    margin-left: 100px;
+    margin-top: 40px;
+    background:aqua;
+    transform: rotateZ(135deg);
+}
+.fg{
+    background:blueviolet;
+    transform: translate(200px, 300px);
+}
+
+.v{
+    background:rgb(217, 255, 0);
+ transform: skewY(40deg);
+}
+
+.b{
+    margin-left: 80px;
+    background:black;
+ transform: skewX(60deg);
+}
+
+.i{
+    background:black;
+ transition-property: background,border-radiys;
+ transition-duration: 4s,2s;
+ 
+
+}
+
+.i:hover{
+    border-radius: 50%;
+}
