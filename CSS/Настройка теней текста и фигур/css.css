@@ -1,0 +1,15 @@
+h1{
+    text-shadow: 10px 10px 9px red;
+}
+
+.z{
+    width: 200px;
+    height: 200px;
+    background: burlywood;
+    margin: 20px;
+    box-shadow: 5px 3px 8px greenyellow;
+}
+
+h2{
+    text-shadow: 15px 17px 4px rgba(193, 101, 223, 0.69);
+}
