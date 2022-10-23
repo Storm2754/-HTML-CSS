@@ -1,0 +1,28 @@
+*{
+    color:red;
+    background:#000;
+}
+
+#re{
+    font-size: 40px;
+    text-transform:uppercase;/*текст пишится маленькими буквами*/
+    color:fuchsia;
+}
+
+.re{
+    font-size: 20px;
+    text-transform:lowercase;/*текст пишется большими буквами*/
+    color:rgb(255, 255, 255);
+}
+
+div > h2{
+    color:rgb(176, 112, 236)
+}
+
+div h2{
+    color:yellow;
+}
+
+.z h4{ 
+    color:indianred;
+}
