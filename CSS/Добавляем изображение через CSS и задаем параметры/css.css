@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 400px;
+    color:blue;
+}
+
+.big-img{
+    border: solid 3px rgb(132, 0, 255);
+background: url("./img/2.jpg");
+background-size: cover;/*Масштабирует фоновое изображение согласно заданным размерам*/
+background-position: center;
+}
+
+.small-img{
+    border: solid 3px red;
+    background: url("./img/1.jpg");
+background-repeat:repeat ;
+background-repeat: no-repeat;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: round;
+background-repeat: space;
+/*background-repeat говорит как будут повторяться изображения*/
+}
+
+.folder-img{
+    background: url("./img/3.jpg");
+background-size:contain ;
+background-repeat: no-repeat;
+border: solid 3px rgb(18, 179, 45);
+}
+
+.tr{
+    border: solid 3px rgb(223, 1, 186);
+    background: url("./img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+
+}
