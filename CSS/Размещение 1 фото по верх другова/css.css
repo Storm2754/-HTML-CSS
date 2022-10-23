@@ -1,0 +1,86 @@
+body{
+display: flex;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.rt{
+margin: 20px;
+width: 300px;
+height: 200px;
+border:6px red solid;
+position: relative;/*Положение элемента устанавливается относительно его исходного места*/
+}
+
+.one{
+    top:0%;
+    left:0%;
+}
+
+.two{
+    top:10%;
+    left:10%;
+}
+
+.three{
+    top:20%;
+    left:20%;
+}
+
+/*Отображение 1 элемента поверх других*/
+
+.tr{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    border:6px red solid;
+    position: relative;/*Положение элемента устанавливается относительно его исходного места*/
+    }
+    
+    .o{
+        top:0%;
+        left:0%;
+    }
+    
+    .t{
+        top:10%;
+        left:10%;
+        z-index: 1;
+    }
+    
+    .th{
+        top:20%;
+        left:20%;
+    }
+
+    /**/
+
+    .a{
+        margin: 20px;
+        width: 300px;
+        height: 200px;
+        border:6px red solid;
+        position: relative;/*Положение элемента устанавливается относительно его исходного места*/
+        }
+        
+        .i{
+            top:0%;
+            left:0%;
+            z-index: 0;
+        }
+        
+        .f{
+            top:10%;
+            left:10%;
+            z-index: -1;
+        }
+        
+        .b{
+            top:20%;
+            left:20%;
+            z-index: -2;
+        }
