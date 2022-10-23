@@ -1,0 +1,33 @@
+.ty{
+border: 5px red solid;
+padding:5px ;
+
+}
+
+.one{
+    float:right;/* отображение элемента по правой старане */
+}
+
+.two{
+    float:left; /*отображение элемента по левой стороне*/
+    height: 250px;
+}
+
+.z{
+    border:2px red solid;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;/* Отображает элементфы которые помещяются в поле */
+}
+
+.three{
+    float:left;
+height:300px;
+
+}
+
+p{
+    clear: both;/*Запрет на оптикание со все сторон*/
+}
+
