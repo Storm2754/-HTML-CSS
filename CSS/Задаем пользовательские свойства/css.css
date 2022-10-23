@@ -1,0 +1,44 @@
+/*
+.heading{
+    color:blueviolet;
+}
+
+.text{
+    color:aqua;
+}
+
+.main-text{
+    color:brown;
+}
+
+.second-heading{
+    color:chartreuse;
+}
+*/
+
+:root{
+    --primaryColor:rgb(185, 15, 228);
+    --secondaryColor:rgb(9, 182, 38);
+    --mainTransition:all 0.4s linear;
+}
+
+.heading{
+     color:var(--primaryColor);
+transition: var(--mainTransition);
+}
+
+.second-heading:hover{
+    color:var(--secondaryColor);
+}
+
+div{
+    --primaryRed:red;
+}
+
+.main-text{
+    color:var(--primaryRed)
+}
+
+.third-heading{
+    color:var(--primaryRed)
+}
