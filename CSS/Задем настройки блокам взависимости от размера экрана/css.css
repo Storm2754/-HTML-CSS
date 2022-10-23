@@ -1,0 +1,47 @@
+body{
+    background:thistle;
+}
+
+.one{
+    background: rgb(255, 0, 0);
+}
+
+h1{
+    color:rgb(103, 37, 179);
+    text-align: center;/*Расположение текста*/
+    text-decoration:underline;/*подчеркивание текста*/
+text-transform:capitalize;/*делает первые буквы большими*/
+}
+
+@media screen and (min-width:850px){
+    body{
+        background:rgb(184, 3, 102);
+    }
+    
+    .one{
+        background: rgb(255, 174, 0);
+    }
+    
+    h1{
+        color:rgb(0, 255, 0);
+        font-size:60px;
+ 
+    }
+}
+
+@media screen and (min-width:1100px){
+    body{
+        background:rgb(255, 255, 255);
+    }
+    
+    .one{
+        background: rgb(0, 0, 0);
+    }
+    
+    h1{
+        color:rgb(255, 255, 255);
+        font-size:60px;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
