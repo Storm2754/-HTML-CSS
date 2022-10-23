@@ -1,0 +1,40 @@
+p::first-line{/*Задает стиль первой строки*/
+    font-weight: bold;
+}
+P::first-letter{/*Задает стиль первой буквы*/
+    font-size: 50px;
+}
+
+/*При наведение меняе параметры на */
+P:hover{
+    color:blueviolet;
+}
+
+
+.z:hover{
+    background: blue;
+    color:white;
+}
+
+/*Задаем параметры активны ссылок*/
+a:link{
+    color:rgb(250, 45, 182);
+}
+/*параметры для не активных ссылок*/
+a:visited{
+    color:chartreuse;
+}
+/* Задает параметры при наведении */
+a:hover{
+    color:darkcyan;
+}
+
+/*Задает параметры при нажатии*/
+a:active{
+    color:rgb(255, 0, 0);
+}
+
+:root{
+    background: #000;
+    color:#fff;
+}
