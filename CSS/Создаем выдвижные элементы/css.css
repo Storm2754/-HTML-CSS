@@ -1,0 +1,33 @@
+div{
+    width: 100px;
+    height:100px;
+    background: blueviolet;
+    color:#fff;
+    margin:20px;
+transition: all 1s linear;
+}
+
+div:hover{
+transform: translateX(100px);
+}
+
+.ease{
+    transition-timing-function: ease ;
+}
+
+.linear{
+    transition-timing-function: linear ;
+}
+
+.ease-in{
+    transition-timing-function: ease-in ;    
+}
+
+.ease-out{
+    transition-timing-function: ease-out ;
+}
+
+.ease-in-out{
+    transition-timing-function: ease-in-out ;
+}
+
