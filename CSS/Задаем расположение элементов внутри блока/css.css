@@ -1,0 +1,36 @@
+div{
+border: 5px red solid;
+background: rgb(56, 101, 131);
+margin-top:40px ;
+position: static;
+}
+
+.one{
+    background: #000;
+    color:#fff;
+    text-align: left;/*Выравнивание текста по левому краю*/
+
+}
+
+.two{
+    background: rgb(192, 7, 146);
+    color:#fff;
+    position: relative; 
+}
+
+.three{
+    background: rgb(28, 143, 5);
+    font-size: 20px;/*Размет шрифта*/
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+.four{
+    background: red;
+    position: relative; /*Задает положение объекта созласно предыдущиму*/
+    right: 50%;
+    bottom:20px;
+}
+
+
